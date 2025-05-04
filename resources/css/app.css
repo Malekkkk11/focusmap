@@ -1,0 +1,60 @@
+/* Badge styles */
+.badge-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(var(--bs-primary-rgb), 0.1);
+    border-radius: 50%;
+    color: var(--bs-primary);
+}
+
+/* Progress bar animations */
+.progress-bar {
+    transition: width 0.6s ease;
+}
+
+/* Map container styles */
+#map {
+    border-radius: 0.375rem;
+}
+
+/* Goal card hover effects */
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* Custom scrollbar for sidebar */
+.list-group-flush {
+    max-height: calc(100vh - 250px);
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+
+.list-group-flush::-webkit-scrollbar {
+    width: 6px;
+}
+
+.list-group-flush::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.list-group-flush::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+}
+
+/* Toast notification styles */
+.toast {
+    opacity: 1;
+}
+
+.toast-header .btn-close {
+    margin-right: -0.375rem;
+}
